@@ -1,5 +1,5 @@
 import streamlit as st
-from audio_recorder_streamlit import audio_recorder
+from audiorecorder import audiorecorder
 import numpy as np
 from scipy.io import wavfile
 import scipy.fftpack as fourier
