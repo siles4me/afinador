@@ -1,5 +1,5 @@
 streamlit
-streamlit-audiorecorder
+audio_recorder_streamlit
 numpy
 scipy
 plotly
