@@ -8,7 +8,7 @@ from PIL import Image
 
 def main():
     st.title("Afinador de Cuerdas de Guitarra")
-    st.markdown(
+    st.write(
         'Proyecto Calulo, Guisselle Betancur y David Siles'
     )
 
