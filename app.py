@@ -8,6 +8,10 @@ from PIL import Image
 
 def main():
     st.title("Afinador de Cuerdas de Guitarra")
+    st.markdown(
+        'Proyecto Calulo, Guisselle Betancur y David Siles'
+    )
+
     st.write("Grabar audio")
     # Agregamos la grabación del archivo de audio
     audio_bytes = audio_recorder()
