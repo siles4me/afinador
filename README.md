@@ -1,6 +1,6 @@
 # Afinador de cuerdas para guitarra utilizando la transformada de Fourier
 
-## Proyecto calculo empresarial, Lead University
+## Proyecto cálculo empresarial, Lead University
 
 ### Autores: Guissell Betancur y David Siles
 
@@ -105,13 +105,7 @@ Dentro de la función `main()` en el código, Streamlit se utiliza para crear di
    st.write(f"🟢 La cuerda grabada está afinada. Es la cuerda {closest_string}. Frecuencia detectada: {F_fund:.2f} Hz.")
    ```
 
-# 
-
-Documentación de la Aplicación de Afinador de Cuerdas de Guitarra
-
-La Aplicación de Afinador de Cuerdas de Guitarra es una herramienta en línea que utiliza la transformada de Fourier para analizar las frecuencias presentes en una grabación de audio de una cuerda de guitarra. La aplicación determina la afinación de la cuerda tocada y proporciona retroalimentación sobre si la cuerda está afinada correctamente o necesita ser ajustada.
-
-## Acceso a la Aplicación
+### Acceso a la Aplicación
 
 La aplicación está disponible en línea en la siguiente dirección: [Afinador de Cuerdas de Guitarra](https://brhpvwrnr7yjgcmwtrfp2m.streamlit.app/). Puedes acceder a la aplicación utilizando un navegador web en cualquier dispositivo compatible.
 
@@ -145,4 +139,4 @@ La aplicación está disponible en línea en la siguiente dirección: [Afinador 
 
 ## Conclusión
 
-La Aplicación de Afinador de Cuerdas de Guitarra es una herramienta práctica y fácil de usar para guitarristas que desean afinar sus cuerdas de manera precisa. La combinación de la transformada de Fourier y la retroalimentación visual hacen que la tarea de afinar una guitarra sea más intuitiva y efectiva.
+La aplicación de afinador de cuerdas de guitarra es una herramienta práctica y fácil de usar para guitarristas que desean afinar sus cuerdas de manera precisa. La combinación de la transformada de Fourier y la retroalimentación visual hacen que la tarea de afinar una guitarra sea más intuitiva y efectiva.
