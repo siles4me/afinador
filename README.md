@@ -19,11 +19,13 @@ Esta aplicacion se desarrollo para ser utilizada en streamlit, a treaves de un e
 - `plotly`
 - `PIL` (Python Imaging Library)
 
+#### 
+
 ## Transformada de Fourier
 
 La ecuación utilizada en el proyecto para calcular la transformada de Fourier de la señal de audio, es la siguiente:
 
-Transformada de Fourier discreta (DFT) de una señal x[n] de longitud N se calcula mediante la siguiente ecuación:
+Transformada de Fourier discreta (DFT) de una señal $x[n]$ de longitud $N$ se calcula mediante la siguiente ecuación:
 
 $$
 X[K] = \sum_{n=0}^{N-1}x[n]* e^{-j2\pi*\frac{kn}{n}}
@@ -31,15 +33,15 @@ $$
 
 Donde:
 
-- X[k]es el valor en la frecuencia k de la DFT.
-- x[n] es el valor de la señal en el instante n.
-- N es la longitud de la señal.
-- j es la unidad imaginaria (j^2 = -1).
-- k varía desde 0 hasta N-1, representando las frecuencias discretas.
+- $X[k]$ es el valor en la frecuencia $k$ de la DFT.
+- $x[n]$ es el valor de la señal en el instante $n$.
+- $N$ es la longitud de la señal.
+- $j$ es la unidad imaginaria $(j^2 = -1)$.
+- $k$ varía desde $0$ hasta $N-1$, representando las frecuencias discretas.
 
 En el proyecto, esta ecuación se aplica a la señal de audio grabada para calcular su espectro de frecuencia, que luego se utiliza para determinar la afinación de la cuerda tocada.
 
-Essto se representa la transformada de Fourier en el código utilizando la biblioteca `scipy` de la siguiente manera:
+Essto se representa  la transformada de Fourier en el código utilizando la biblioteca `scipy` de la siguiente manera:
 
 ```python
 # Realizar la transformada de Fourier de la señal de audio
@@ -62,7 +64,7 @@ Este cálculo se realiza para analizar las frecuencias presentes en la señal de
 
 ## Streamlit
 
-Streamlit al ser biblioteca de Python que permite crear aplicaciones web interactivas con solo unos pocos pasos. En este proyecto de afinador de cuerdas de guitarra, Streamlit se utiliza para construir la interfaz de usuario y mostrar los resultados de análisis de audio y afinación.
+Streamlit al ser  biblioteca de Python que permite crear aplicaciones web interactivas con solo unos pocos pasos. En este proyecto de afinador de cuerdas de guitarra, Streamlit se utiliza para construir la interfaz de usuario y mostrar los resultados de análisis de audio y afinación.
 
 ### En el codigo
 
@@ -83,7 +85,7 @@ Dentro de la función `main()` en el código, Streamlit se utiliza para crear di
    
    ```python
    if st.button("Iniciar Grabación"):
-     # Lógica para la grabación de audio y análisis posterior
+       # Lógica para la grabación de audio y análisis posterior
    ```
 
 3. **Gráfico de Espectro de Frecuencia:**
@@ -102,6 +104,8 @@ Dentro de la función `main()` en el código, Streamlit se utiliza para crear di
    ```python
    st.write(f"🟢 La cuerda grabada está afinada. Es la cuerda {closest_string}. Frecuencia detectada: {F_fund:.2f} Hz.")
    ```
+
+# 
 
 Documentación de la Aplicación de Afinador de Cuerdas de Guitarra
 
