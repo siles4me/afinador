@@ -64,7 +64,7 @@ Este cálculo se realiza para analizar las frecuencias presentes en la señal de
 
 ## Streamlit
 
-Streamlit al ser  biblioteca de python que permite crear aplicaciones web interactivas con solo unos pocos pasos. En este proyecto de afinador de cuerdas de guitarra, Streamlit se utiliza para construir la interfaz de usuario y mostrar los resultados de análisis de audio y afinación.
+Streamlit al ser  biblioteca de python que permite crear aplicaciones web interactivas con solo unos pocos pasos. En este proyecto de afinador de cuerdas de guitarra, streamlit se utiliza para construir la interfaz de usuario y mostrar los resultados de análisis de audio y afinación.
 
 ### En el código
 
