@@ -6,7 +6,7 @@
 
 ## Descripcion
 
-La idea de este prooyecto es crear una aplicación de afinador de cuerdas de guitarra utilizando la transformada de Fourier para analizar las frecuencias presentes en una grabación de audio de una cuerda de guitarra. La aplicación graba un fragmento de audio, calcula su espectro de frecuencia a través de la transformada de Fourier y determina qué cuerda de la guitarra está siendo tocada en función de la frecuencia fundamental detectada.
+La idea de este proyecto es crear una aplicación de afinador de cuerdas de guitarra utilizando la transformada de Fourier para analizar las frecuencias presentes en una grabación de audio de una cuerda de guitarra. La aplicación graba un fragmento de audio, calcula su espectro de frecuencia a través de la transformada de Fourier y determina qué cuerda de la guitarra está siendo tocada en función de la frecuencia fundamental detectada.
 
 ## Funcionamiento
 
