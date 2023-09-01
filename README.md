@@ -2,7 +2,7 @@
 
 ## Proyecto calculo empresarial, Lead University
 
-### Autores: Guisselle Betancur y David Siles
+### Autores: Guissell Betancur y David Siles
 
 ## Descripción
 
