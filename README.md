@@ -1,16 +1,16 @@
-# Afinador de cuerdas para guitarra utilizando la trasformada de Fourier
+# Afinador de cuerdas para guitarra utilizando la transformada de Fourier
 
 ## Proyecto calculo empresarial, Lead University
 
 ### Autores: Guisselle Betancur y David Siles
 
-## Descripcion
+## Descripción
 
-La idea de este prooyecto es crear una aplicación de afinador de cuerdas de guitarra utilizando la transformada de Fourier para analizar las frecuencias presentes en una grabación de audio de una cuerda de guitarra. La aplicación graba un fragmento de audio, calcula su espectro de frecuencia a través de la transformada de Fourier y determina qué cuerda de la guitarra está siendo tocada en función de la frecuencia fundamental detectada.
+La idea de este proyecto es crear una aplicación de afinador de cuerdas de guitarra utilizando la transformada de Fourier para analizar las frecuencias presentes en una grabación de audio de una cuerda de guitarra. La aplicación graba un fragmento de audio, calcula su espectro de frecuencia a través de la transformada de Fourier y determina qué cuerda de la guitarra está siendo tocada en función de la frecuencia fundamental detectada.
 
 ## Funcionamiento
 
-Esta aplicacion se desarrollo para ser utilizada en streamlit, a treaves de un entorno de python, aplicando las tecnicas aprendidas para su funcionalidad, donde se utilizaron las siguientes librerias
+Esta aplicacón se desarrolló para ser utilizada en streamlit, a través de un entorno de python, aplicando las técnicas aprendidas para su funcionalidad, donde se utilizaron las siguientes librerías
 
 - `streamlit`
 - `audio_recorder_streamlit`
@@ -28,7 +28,7 @@ La ecuación utilizada en el proyecto para calcular la transformada de Fourier d
 Transformada de Fourier discreta (DFT) de una señal $x[n]$ de longitud $N$ se calcula mediante la siguiente ecuación:
 
 $$
-X[K] = \sum_{n=0}^{N-1}x[n]* e^{-j2\pi*\frac{kn}{n}}
+X[k] = \sum_{n=0}^{N-1}x[n]* e^{-j2\pi*\frac{kn}{n}}
 $$
 
 Donde:
@@ -41,7 +41,7 @@ Donde:
 
 En el proyecto, esta ecuación se aplica a la señal de audio grabada para calcular su espectro de frecuencia, que luego se utiliza para determinar la afinación de la cuerda tocada.
 
-Essto se representa  la transformada de Fourier en el código utilizando la biblioteca `scipy` de la siguiente manera:
+Esto se representa  la transformada de Fourier en el código utilizando la biblioteca `scipy` de la siguiente manera:
 
 ```python
 # Realizar la transformada de Fourier de la señal de audio
@@ -66,7 +66,7 @@ Este cálculo se realiza para analizar las frecuencias presentes en la señal de
 
 Streamlit al ser  biblioteca de Python que permite crear aplicaciones web interactivas con solo unos pocos pasos. En este proyecto de afinador de cuerdas de guitarra, Streamlit se utiliza para construir la interfaz de usuario y mostrar los resultados de análisis de audio y afinación.
 
-### En el codigo
+### En el código
 
 Dentro de la función `main()` en el código, Streamlit se utiliza para crear diferentes componentes de la interfaz de usuario y mostrar los resultados:
 
